@@ -1,243 +1,513 @@
-*{
-    font-family: 'Kanit', sans-serif;
-    padding: 0;
-    margin: 0;
-
+* {
+  font-family: "Kanit", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    height: 62px;
-    font-size: 18px;
-    padding: 20px 80px 12px 80px;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 62px;
+  font-size: 18px;
+  padding: 20px 80px 12px 80px;
 }
 
-.logo{
-    height: 22px;
-    width: 114px;
-    display: flex;
+.logo {
+  height: 22px;
+  width: 114px;
+  display: flex;
 }
 
-.logo > img{
-    padding-right: 10px;
+.logo > img {
+  padding-right: 10px;
 }
 
-.menu{
-    height: 38px;
-    width: 410px;
-    color: #081E34;
+.menu {
+  height: 38px;
+  width: 410px;
+  color: #081e34;
 }
 
-.menu > a{
-    margin-right: 16px;
+.menu > a {
+  margin-right: 16px;
 }
 
-.menu > #button{
-    color: #081E34;
-    background-color: gainsboro;
-    border-radius: 30px;
-    border: none;
-    font-size: 18px;
-    padding: 10px;
-
+.menu > #button {
+  color: #081e34;
+  background-color: gainsboro;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+  padding: 10px;
 }
 
-a{
-    text-decoration: none;
-    color: #081E34;
+a {
+  text-decoration: none;
+  color: #081e34;
 }
 
-
-.home{
-    display: flex;
-    align-items: center;
-    height: 420px;
-    padding: 100px 80px 100px 80px;
+.home {
+  display: flex;
+  align-items: center;
+  height: 420px;
+  padding: 100px 80px 100px 80px;
 }
 
-.info{
-    width: 495px;
-    height: 366px;
-    position: relative;
-    padding-right: 165px;
+.info {
+  width: 495px;
+  height: 366px;
+  position: relative;
+  padding-right: 165px;
 }
 
-.info > h1{
-    font-size: 54px;
-    font-weight: bold;
+.info > h1 {
+  font-size: 54px;
+  font-weight: bold;
 }
 
-.info > p{
-    padding: 32px 0 48px 0;
+.info > p {
+  padding: 32px 0 48px 0;
 }
 
-.info > button{
-    background-color: #712FFF;
-    color: white;
-    padding: 16px 24px 16px 24px;
-    border-radius: 30px;
-    border: none;
+.info > button {
+  background-color: #712fff;
+  color: white;
+  padding: 16px 24px 16px 24px;
+  border-radius: 30px;
+  border: none;
 }
 
-.info > button:hover{
-    cursor: pointer;
+.info > button:hover {
+  cursor: pointer;
 }
 
-
-.girl{
-    width: 619px;
-    height: 420px;
-    position: relative;
+.girl {
+  width: 619px;
+  height: 420px;
+  position: relative;
 }
 
 .main_image {
-    border-radius: 50px;
+  border-radius: 50px;
 }
 
 .dollar_image {
-    position: absolute;
-    left: 250px;
+  position: absolute;
+  left: 250px;
 }
 
 .fire_image {
-    position: absolute;
-    left: 430px;
-    bottom: 40px;
+  position: absolute;
+  left: 430px;
+  bottom: 40px;
 }
 
-.how{
-    justify-content: center;
-    height: 362px;
-    padding: 100px 80px 100px  80px;
-    background-color: #E1DEE7;
-    border-radius: 30px;
+.how {
+  justify-content: center;
+  height: 362px;
+  padding: 100px 80px 100px 80px;
+  background-color: #e1dee7;
+  border-radius: 30px;
 }
 
-
-.main_text{
-    text-align: center;
-    height: 84px;
-    width: 100%;
-    padding-bottom: 86px;
-
+.mini {
+  font-size: 16px;
 }
 
-.additional_text{
-    display: flex;
-    width: 100%;
-    height: 186px;
+.mega {
+  font-size: 54px;
 }
 
-.additional_text > h1{
-
-    font-weight: bold;
-    font-size: 24px;
+.main_text {
+  text-align: center;
+  height: 84px;
+  width: 100%;
+  padding-bottom: 86px;
 }
 
-.additional_text > p{
-    font-size: 16px;
+.additional_text {
+  display: flex;
+  width: 100%;
+  height: 186px;
 }
 
-.additional_text > .container{
-    padding-left: 40px;
+.additional_text > h1 {
+  font-weight: bold;
+  font-size: 24px;
 }
 
-.start{
-    display: flex;
-    padding: 100px 80px 100px 80px;
-    background-color: #f1f1f1;
+.additional_text > p {
+  font-size: 16px;
 }
 
-.start > .info3{
-    width: 800px;
-    height: 222px;
+.additional_text > .container {
+  padding-left: 40px;
+  width: 400px;
 }
 
-.info3 > .text{
-    width: 495px;
+.start {
+  display: flex;
+  padding: 100px 80px 100px 80px;
+  background-color: #f1f1f1;
 }
 
-input{
-    width: 619px;
-    height: 50px;
-    font-size: 22px;
-    border-radius: 15px;
-    border-style: solid;
+.start > .info3 {
+  width: 800px;
+  height: 222px;
 }
 
-.find_job{
-    background-color: #712FFF;
-    color: white;
-    margin-left: 32px;
-    padding: 18px 25px 18px 25px;
-    border-radius: 30px;
-    border: none;
+.info3 > .text {
+  width: 495px;
 }
 
-.upload{
+.text > p{
+  padding: 32px 0 32px 0;
+}
+
+input {
+  width: 619px;
+  height: 50px;
+  font-size: 22px;
+  border-radius: 15px;
+  border-style: solid;
+}
+
+.find_job {
+  background-color: #712fff;
+  color: white;
+  margin-left: 32px;
+  padding: 18px 25px 18px 25px;
+  border-radius: 30px;
+  border: none;
+}
+
+.upload {
+  display: flex;
+  align-items: center;
+  height: 348px;
+  padding: 100px 80px 100px 80px;
+  background-color: #f1f1f1;
+}
+
+.boy {
+  width: 619px;
+  height: 420px;
+  position: relative;
+}
+
+.info1 {
+  width: 495px;
+  height: 214px;
+  position: relative;
+  padding-left: 128px;
+}
+
+.info1 > button {
+  background-color: #712fff;
+  color: white;
+  padding: 16px 24px 16px 24px;
+  border-radius: 30px;
+  border: none;
+}
+
+.info1 > p {
+  padding: 32px 0 48px 0;
+}
+
+.main_image1 {
+  border-radius: 32px;
+}
+
+.star_image {
+  position: absolute;
+  left: 220px;
+}
+
+.lightning_image {
+  position: absolute;
+  left: 25px;
+  bottom: 150px;
+}
+
+footer {
+  display: flex;
+  height: 108px;
+  padding: 32px 80px 32px 80px;
+  color: #081e34;
+}
+
+.menu1 {
+  height: 38px;
+  width: 100%;
+}
+
+.menu1 > a {
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 400px) {
+  .navbar {
     display: flex;
     align-items: center;
-    height: 348px;
-    padding: 100px 80px 100px 80px;
-    background-color: #f1f1f1;
-}
+    padding: 12px 24px 12px 24px;
+  }
 
-.boy{
-    width: 619px;
-    height: 420px;
-    position: relative;
-}
+  .navbar a {
+    display: none;
+  }
 
-.info1{
-    width: 495px;
-    height: 214px;
-    position: relative;
-    padding-left: 128px;
-}
+  .navbar > .menu {
+    margin-left: 120px;
+  }
 
-.info1 > button{
-    background-color: #712FFF;
+  .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    height: 618px;
+    padding: 10px 24px 100px 24px;
+  }
+
+  .info {
+    width: 312px;
+    height: 290px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    text-align: center;
+  }
+
+  .info > h1 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .info > p {
+    padding: 32px 0 48px 0;
+  }
+
+  .info > button {
+    background-color: #712fff;
     color: white;
     padding: 16px 24px 16px 24px;
     border-radius: 30px;
     border: none;
-}
+  }
 
-.info1 > p{
-    padding: 32px 0 48px 0;
-}
+  .girl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .main_image {
+    width: 312px;
+    height: 210px;
+    border-radius: 32px;
+    position: relative;
+  }
 
-.main_image1 {
-    border-radius: 50px;
-}
-
-.star_image{
+  .dollar_image {
     position: absolute;
-    left: 220px;
-}
+    width: 80px;
+    left: 250px;
+    bottom: 160px;
+  }
 
-.lightning_image{
+  .fire_image {
+    position: absolute;
+    width: 80px;
+    left: 380px;
+    top: 150px;
+  }
+
+  .how {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 686px;
+    padding: 54px 24px 54px 24px;
+    background-color: #e1dee7;
+    border-radius: 30px;
+  }
+
+  .main_text {
+    height: 84px;
+    width: 312px;
+    padding: 0;
+  }
+
+  .mini {
+    font-size: 14px;
+  }
+
+  .mega {
+    font-weight: bold;
+    font-size: 32px;
+  }
+
+  .additional_text {
+    display: flex;
+    flex-wrap: wrap;
+    height: 440px;
+    padding: 54px 24px 54px 24px;
+    justify-content: center;
+  }
+
+  .container > h1 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .container > img {
+    width: 40px;
+  }
+
+  .container > .one {
+    width: 31px;
+  }
+
+  .additional_text > p {
+    font-size: 14px;
+  }
+
+  .additional_text > .container {
+    padding: 0 0 40px 0;
+    width: 312px;
+    height: 120px;
+  }
+
+  .start {
+    display: flex;
+    padding: 54px 24px 54px 24px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .start > .info3 {
+    width: 312px;
+    height: 279px;
+  }
+
+  .info3 > .text {
+    width: 312px;
+
+  }
+
+  .text > h1{
+    font-size: 24px;
+  }
+
+  .text > p{
+    font-size: 14px;
+  }
+
+  input {
+    width: 312px;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+
+  }
+
+  .find_job {
+    background-color: #712fff;
+    color: white;
+    width: 106px;
+    margin: 32px 0 0 0;
+    padding: 16px 24px;
+    border-radius: 30px;
+    border: none;
+  }
+
+  .upload {
+    display: flex;
+    align-items: center;
+    height: 535px;
+    padding: 64px 24px;
+    background-color: #f1f1f1;
+    flex-direction: column;
+  }
+
+  .boy {
+    width: 312px;
+    height: 210px;
+    position: relative;
+  }
+
+  .main_image1 {
+    width: 312px;
+    height: 210px;
+    border-radius: 24px;
+  }
+
+  .star_image {
+    width: 53px;
+    position: absolute;
+    top: 15px;
+    left: 120px;
+  }
+
+  .lightning_image {
+    width: 47px;
     position: absolute;
     left: 25px;
-    bottom: 150px;
-}
+    bottom: 60px;
+  }
+  .info1 {
+    width: 312px;
+    height: 197px;
+    position: relative;
+    padding: 128px 0 0 0;
+  }
 
-footer{
+  .info1 > h1{
+    font-size: 24px;
+  }
+
+  .info1 > p{
+    font-size: 14px;
+  }
+
+
+
+  .info1 > button {
+    background-color: #712fff;
+    color: white;
+    width: 114px;
+    padding: 16px 24px 16px 24px;
+    border-radius: 30px;
+    border: none;
+  }
+
+  .info1 > p {
+    padding: 32px 0 48px 0;
+  }
+
+
+  footer {
     display: flex;
-    height: 108px;
-    padding: 32px 80px 32px 80px;
-    color: #081E34;
+    flex-direction: column;
+    width: 312px;
+    height: 350px;
+    padding: 32px 24px 32px 24px;
+    color: #081e34;
+    justify-content: flex-start;
+  }
+
+
+  .menu1 {
+    display: flex;
+    height: 226px;
+    width: 111px;
+    flex-wrap: wrap;
+  }
+
+  footer > p{
+    padding-top: 150px;
+  }
 
 }
-
-.menu1{
-    height: 38px;
-    width: 100%;
-}
-
-.menu1 > a{
-    margin-right: 20px;
-}
-
